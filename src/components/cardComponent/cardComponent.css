@@ -1,0 +1,21 @@
+.logo-container {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #3c2f55;
+    margin-left: 30px;
+    top: -55px;
+    position: absolute;
+}
+
+.card {
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+}
+

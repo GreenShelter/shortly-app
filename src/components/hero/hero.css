@@ -1,0 +1,28 @@
+h1 {
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+p {
+    font-size: 18px;
+}
+
+.herobackground {
+    background-image: url('../../assets/illustration-working.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+    max-height: 733px;
+    height: 733px;
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+
+.hero {
+    margin-bottom: 100px;
+}
+
+.startedbtn {
+    background-color: #2BD1D1;
+    border-color: #2BD1D1;
+}
