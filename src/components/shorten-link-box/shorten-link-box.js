@@ -69,11 +69,11 @@ function Shortenbox() {
                     <Col lg='9'>
                         <Form.Control className={noLink || invalidLink ? 'shorten-link-invalid' : null} name='shorten-link' onChange={handleChange} size="lg" type="text" placeholder="Shorten a link here..." />
                         {noLink === true ?
-                            <p className='text-danger'>
+                            <p className='text-danger mb-0'>
                                 Please add a link
                             </p>
                             : invalidLink === true ?
-                                <p className='text-danger'>
+                                <p className='text-danger mb-0'>
                                     Please put a valid name
                                 </p>
                                 : null}
