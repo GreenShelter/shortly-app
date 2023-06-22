@@ -6,6 +6,7 @@ import './App.css'
 import Container from 'react-bootstrap/esm/Container';
 import AdvanceStatistic from './components/advancesStatisticSection/advanceStatisticSection';
 import BoostYourLinkSection from './components/boostYourLinkSection/boostYourLinkSection';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <AdvanceStatistic />
       <BoostYourLinkSection />
+      <Footer />
     </div>
   );
 }

@@ -12,3 +12,7 @@
 .shorten-link {
     color: #2dd0d1;
 }
+
+.shorten-link-invalid {
+    border-color: red;
+}
